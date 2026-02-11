@@ -1,13 +1,16 @@
-import { Link } from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
 const NotFound = () => {
+  const pathname = usePathname();
+
   useEffect(() => {
     console.error(
       "404 Error: User attempted to access non-existent route:",
-      location.pathname,
+      pathname,
     );
-  }, []);
+  }, [pathname]);
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-muted">
@@ -16,7 +19,7 @@ const NotFound = () => {
         <p className="mb-4 text-xl text-muted-foreground">
           Oops! Page not found
         </p>
-        <Link to="/" className="text-primary underline hover:text-primary/90">
+        <Link href="/" className="text-primary underline hover:text-primary/90">
           Return to Home
         </Link>
       </div>
