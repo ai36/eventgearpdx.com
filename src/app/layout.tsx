@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { AnalyticsGate, CookieBanner } from "./analytics";
 
 import { Providers } from "./providers";
 
@@ -19,7 +20,8 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://eventgearpdx.vercel.app"),
 
   title: {
-    default: "Event Gear PDX — Presentation Equipment Rental | Portland & Vancouver",
+    default:
+      "Event Gear PDX — Presentation Equipment Rental | Portland & Vancouver",
     template: "%s — Event Gear PDX",
   },
   description:
@@ -49,12 +51,19 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const gaId = process.env.NEXT_PUBLIC_GA_ID ?? "";
+  const isProdDeployment = process.env.VERCEL_ENV === "production";
+
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Providers>{children}</Providers>
+        <Providers>
+          {children}
+          <CookieBanner />
+        </Providers>
+        <AnalyticsGate gaId={gaId} isProdDeployment={isProdDeployment} />
       </body>
     </html>
   );
