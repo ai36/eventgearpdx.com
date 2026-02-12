@@ -87,11 +87,11 @@ const Logo = ({ className }: React.HTMLAttributes<HTMLLinkElement>) => {
         </defs>
       </svg>
       {isClient ? (
-        <span className="md:hidden lg:block">
+        <span className="md:hidden lg:block text-background dark:text-foreground/70">
           Event<span className="text-accent">Gear</span>
         </span>
       ) : (
-        <span className="md:hidden lg:block">
+        <span className="md:hidden lg:block text-background dark:text-foreground/70">
           Event<span className="text-accent">Gear</span>
         </span>
       )}
