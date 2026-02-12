@@ -2,12 +2,10 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 const Logo = ({ className }: React.HTMLAttributes<HTMLLinkElement>) => {
-  const isClient = typeof window !== "undefined";
-
   return (
     <Link
       className={cn(
-        "flex items-center gap-2 font-heading text-xl font-bold text-foreground tracking-tight",
+        "flex items-center gap-2 font-heading text-xl font-bold text-background dark:text-foreground/70 tracking-tight",
         className,
       )}
       href="/"
@@ -86,15 +84,9 @@ const Logo = ({ className }: React.HTMLAttributes<HTMLLinkElement>) => {
           </clipPath>
         </defs>
       </svg>
-      {isClient ? (
-        <span className="md:hidden lg:block text-background dark:text-foreground/70">
-          Event<span className="text-accent">Gear</span>
-        </span>
-      ) : (
-        <span className="md:hidden lg:block text-background dark:text-foreground/70">
-          Event<span className="text-accent">Gear</span>
-        </span>
-      )}
+      <span className="md:hidden lg:block">
+        Event<span className="text-accent">Gear</span>
+      </span>
     </Link>
   );
 };

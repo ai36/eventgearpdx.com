@@ -36,7 +36,7 @@ const Header = () => {
                 className={`w-5 h-0.5 bg-foreground transition-transform ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`}
               />
             </button>
-            <Logo />
+            <Logo className="text-foreground"/>
           </div>
 
           {/* Desktop nav */}
@@ -95,7 +95,7 @@ const Header = () => {
             <line x1="6" y1="6" x2="18" y2="18" />
           </svg>
         </button>
-        <Logo className="absolute top-[10px] left-5 p-2" />
+        <Logo className="absolute top-2.5 left-5 p-2 text-foreground" />
         {navItems.map((item) => (
           <a
             key={item.label}

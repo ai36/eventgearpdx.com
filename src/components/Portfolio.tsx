@@ -41,7 +41,7 @@ const Portfolio = () => {
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {events.map((event) => (
             <div key={event.title} className="bg-card rounded-xl overflow-hidden shadow-card hover:shadow-card-hover transition-shadow duration-300">
-              <div className="aspect-[4/3] overflow-hidden">
+              <div className="aspect-4/3 overflow-hidden">
                 <Image
                   src={event.image}
                   alt={event.title}
