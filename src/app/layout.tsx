@@ -19,19 +19,19 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://eventgearpdx.vercel.app"),
 
   title: {
-    default: "PresentPro — Presentation Equipment Rental | Portland & Vancouver",
-    template: "%s — PresentPro",
+    default: "Event Gear PDX — Presentation Equipment Rental | Portland & Vancouver",
+    template: "%s — Event Gear PDX",
   },
   description:
     "Turn-key projector and screen rental for meetings, pitches, and trainings in Portland, OR and Vancouver, WA. Delivery, setup, and on-site support.",
-  authors: [{ name: "PresentPro" }],
+  authors: [{ name: "Event Gear PDX" }],
 
   icons: {
     icon: "/favicon.svg",
   },
 
   openGraph: {
-    title: "PresentPro — Presentation Equipment Rental",
+    title: "Event Gear PDX — Presentation Equipment Rental",
     description:
       "Turn-key projector and screen rental with delivery, setup, and on-site support in the Pacific Northwest.",
     type: "website",

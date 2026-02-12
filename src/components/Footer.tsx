@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="border-t border-primary-foreground/10 mt-10 pt-6 text-center text-xs text-primary-foreground/40">
-            © {new Date().getFullYear()} PresentPro. All rights reserved.
+            © {new Date().getFullYear()} Event Gear PDX. All rights reserved
           </div>
         </div>
       </footer>
