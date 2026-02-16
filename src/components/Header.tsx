@@ -12,6 +12,7 @@ const Header = () => {
     { label: "How It Works", href: "#how-it-works" },
     { label: "Portfolio", href: "#portfolio" },
     { label: "Pricing", href: "#pricing" },
+    { label: "Blog", href: "/blog" },
     { label: "Contact", href: "#contact" },
   ];
 
@@ -59,7 +60,7 @@ const Header = () => {
                 className="bg-accent-gradient text-accent-foreground text-sm font-semibold px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity"
               >
                 Book
-                <span className="hidden sm:inline">Equipment</span>
+                <span className="hidden sm:inline md:hidden lg:inline">Equipment</span>
               </a>
             </div>
           </nav>
