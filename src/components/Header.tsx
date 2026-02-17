@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ThemeToggle from "./ThemeToggle";
 import Logo from "./Logo";
 import Link from "next/link";
@@ -16,6 +16,9 @@ const navItems = [
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+    const [mounted, setMounted] = useState(false);
+    useEffect(() => setMounted(true), []);
 
   return (
     <>
@@ -55,7 +58,7 @@ const Header = () => {
               ))}
             </div>
             <div className="flex items-center gap-2">
-              <ThemeToggle />
+              {mounted ? <ThemeToggle /> : <span className="w-10 h-10" aria-hidden />}
               <Link
                 href="/#pricing"
                 className="bg-accent-gradient text-accent-foreground text-sm font-semibold px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity"
