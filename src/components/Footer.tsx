@@ -1,5 +1,13 @@
 import { Developer } from "./developer/Developer";
 import Logo from "./Logo";
+import Link from "next/link";
+
+const navItems = [
+  { label: "Services", href: "/#services" },
+  { label: "Pricing", href: "/#pricing" },
+  { label: "Blog", href: "/blog" },
+  { label: "Contact", href: "/#contact" },
+];
 
 const Footer = () => {
   return (
@@ -8,9 +16,6 @@ const Footer = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-start gap-8">
             <div>
-              {/* <span className="font-heading text-xl font-bold tracking-tight">
-                Present<span className="text-accent">Pro</span>
-              </span> */}
               <Logo />
               <p className="text-primary-foreground/60 text-sm mt-2 max-w-xs dark:text-muted-foreground/60">
                 Presentation equipment rental with full-service support in
@@ -21,30 +26,16 @@ const Footer = () => {
               <div>
                 <h4 className="font-semibold mb-3">Quick Links</h4>
                 <ul className="space-y-2 text-primary-foreground/60 dark:text-muted-foreground/60">
-                  <li>
-                    <a
-                      href="#services"
-                      className="hover:text-primary-foreground transition-colors hover:dark:text-muted-foreground/40"
-                    >
-                      Services
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#pricing"
-                      className="hover:text-primary-foreground transition-colors hover:dark:text-muted-foreground/40"
-                    >
-                      Pricing
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="#contact"
-                      className="hover:text-primary-foreground transition-colors hover:dark:text-muted-foreground/40"
-                    >
-                      Contact
-                    </a>
-                  </li>
+                  {navItems.map((item) => (
+                    <li key={item.label}>
+                      <Link
+                        href={item.href}
+                        className="hover:text-primary-foreground transition-colors hover:dark:text-muted-foreground/40"
+                      >
+                        {item.label}
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
               </div>
               <div>
