@@ -3,18 +3,19 @@
 import { useState } from "react";
 import ThemeToggle from "./ThemeToggle";
 import Logo from "./Logo";
+import Link from "next/link";
+
+const navItems = [
+  { label: "Services", href: "/#services" },
+  { label: "How It Works", href: "/#how-it-works" },
+  { label: "Portfolio", href: "/#portfolio" },
+  { label: "Pricing", href: "/#pricing" },
+  { label: "Blog", href: "/blog" },
+  { label: "Contact", href: "/#contact" },
+];
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
-  const navItems = [
-    { label: "Services", href: "#services" },
-    { label: "How It Works", href: "#how-it-works" },
-    { label: "Portfolio", href: "#portfolio" },
-    { label: "Pricing", href: "#pricing" },
-    { label: "Blog", href: "/blog" },
-    { label: "Contact", href: "#contact" },
-  ];
 
   return (
     <>
@@ -37,31 +38,33 @@ const Header = () => {
                 className={`w-5 h-0.5 bg-foreground transition-transform ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`}
               />
             </button>
-            <Logo className="text-foreground"/>
+            <Logo className="text-foreground" />
           </div>
 
           {/* Desktop nav */}
           <nav className="flex items-center gap-6 lg:gap-8">
             <div className="hidden md:flex items-center gap-8">
-            {navItems.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-nowrap"
-              >
-                {item.label}
-              </a>
-            ))}
+              {navItems.map((item) => (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-nowrap"
+                >
+                  {item.label}
+                </a>
+              ))}
             </div>
             <div className="flex items-center gap-2">
               <ThemeToggle />
-              <a
-                href="#pricing"
+              <Link
+                href="/#pricing"
                 className="bg-accent-gradient text-accent-foreground text-sm font-semibold px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity"
               >
                 Book
-                <span className="hidden sm:inline md:hidden lg:inline">Equipment</span>
-              </a>
+                <span className="hidden sm:inline md:hidden lg:inline">
+                  Equipment
+                </span>
+              </Link>
             </div>
           </nav>
         </div>
