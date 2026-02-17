@@ -28,9 +28,9 @@ draft: false
 
 # Getting ready for the spring event season in Portland and Vancouver
 
-![Image](/blog/images/cover.jpg)
+![Spring events preparation](/blog/images/spring-event-season-prep/cover.jpg)
 
-As we move toward the busy spring calendar, the EventGear team is seeing increased demand from corporate planners and local venues across Portland, Oregon and Vancouver, Washington. Many organizations are already locking in dates for conferences, trainings, and community gatherings.
+> As we move toward the busy spring calendar, the EventGear team is seeing increased demand from corporate planners and local venues across Portland, Oregon and Vancouver, Washington. Many organizations are already locking in dates for conferences, trainings, and community gatherings.
 
 Our warehouse has been fully stocked with refreshed inventory, including high brightness projectors, wireless microphone systems, and large format displays. We have also expanded our delivery scheduling to better support multi day events throughout the metro area.
 

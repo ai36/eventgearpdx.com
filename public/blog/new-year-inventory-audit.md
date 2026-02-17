@@ -28,9 +28,9 @@ draft: false
 
 # EventGear begins the year with a full inventory audit
 
-![Image](/blog/images/new-year-inventory-audit/cover.jpg)
+![Inventory audit](/blog/images/new-year-inventory-audit/cover.jpg)
 
-At the start of 2026, EventGear completed a comprehensive inventory audit across our Portland and Vancouver facilities. The review is part of our standard quality cycle and helps ensure accurate availability for upcoming client projects.
+> At the start of 2026, EventGear completed a comprehensive inventory audit across our Portland and Vancouver facilities. The review is part of our standard quality cycle and helps ensure accurate availability for upcoming client projects.
 
 The process included barcode verification, condition grading, and updated lifecycle tracking for high use assets. By tightening inventory visibility, we can provide faster confirmations and more reliable equipment planning for event producers.
 

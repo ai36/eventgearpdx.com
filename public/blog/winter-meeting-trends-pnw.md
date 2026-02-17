@@ -28,9 +28,9 @@ draft: false
 
 # Winter meeting trends we are seeing in the Pacific Northwest
 
-![Image](/blog/images/winter-meeting-trends-pnw/cover.jpg)
+![Winter meetings](/blog/images/winter-meeting-trends-pnw/cover.jpg)
 
-During the first weeks of 2026, EventGear has observed several clear patterns in how organizations across Portland and Southwest Washington are planning winter meetings. Clients are favoring streamlined room layouts with larger confidence monitors and simplified presenter workflows.
+> During the first weeks of 2026, EventGear has observed several clear patterns in how organizations across Portland and Southwest Washington are planning winter meetings. Clients are favoring streamlined room layouts with larger confidence screens and simplified presenter workflows.
 
 There is also steady demand for compact audio systems that can be deployed quickly in flexible meeting spaces. Many planners are optimizing for shorter setup windows and minimal room disruption, especially in active corporate offices.
 

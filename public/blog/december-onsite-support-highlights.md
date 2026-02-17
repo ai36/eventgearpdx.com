@@ -28,9 +28,9 @@ draft: false
 
 # Strong demand for onsite technical support in December
 
-![Image](/blog/images/december-onsite-support-highlights/cover.jpg)
+![Onsite support](/blog/images/december-onsite-support-highlights/cover.jpg)
 
-December has brought a noticeable increase in requests for full onsite technical support throughout the Portland metro area. Many organizations are prioritizing live technician presence to ensure smooth execution of year end meetings and executive presentations.
+> December has brought a noticeable increase in requests for full onsite technical support throughout the Portland metro area. Many organizations are prioritizing live technician presence to ensure smooth execution of year end meetings and executive presentations.
 
 EventGear field teams have supported a wide range of venues, from downtown conference centers to corporate campuses in Vancouver, Washington. Recent deployments focused on fast presenter transitions, real time audio management, and coordinated show cues.
 
