@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Pagination from "@/components/Pagination";
 import BlogPostsList from "@/components/BlogPostsList";
 import { getAllPostsMeta } from "../../blog";
@@ -11,9 +12,34 @@ export async function generateStaticParams() {
   const allPosts = (await getAllPostsMeta()) as BlogPost[];
   const totalPages = Math.ceil(allPosts.length / BLOG_POSTS_PER_PAGE);
 
-  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, i) => ({
+  return Array.from({ length: totalPages - 1 }, (_, i) => ({
     page: String(i + 2),
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ page: string }>;
+}): Promise<Metadata> {
+  const { page } = await params;
+  const pageNumber = Number(page);
+
+  if (!Number.isInteger(pageNumber) || pageNumber < 2) notFound();
+
+  const allPosts = (await getAllPostsMeta()) as BlogPost[];
+  const totalPages = Math.ceil(allPosts.length / BLOG_POSTS_PER_PAGE);
+  if (pageNumber > totalPages) notFound();
+
+  const url = `/blog/${pageNumber}`;
+
+  return {
+    title: `All posts — Page ${pageNumber}`,
+    description: `Blog posts — page ${pageNumber}.`,
+    alternates: { canonical: url },
+    openGraph: { url },
+    robots: { index: true, follow: true },
+  };
 }
 
 export default async function BlogIndexPage({

@@ -1,13 +1,52 @@
+import type { Metadata } from "next";
 import { getAllSlugs, getPostBySlug } from "../blog";
 import { markdownToHtml } from "../markdownToHtml";
 import Image from "next/image";
-import { getAuthorAvatarByName, formatDate } from "@/lib";
+import { getAuthorAvatarByName, formatDate, getContentFromMarkdown } from "@/lib";
+import { notFound } from "next/navigation";
+
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://eventgearpdx.com";
 
 export const dynamic = "force-static";
 
 export async function generateStaticParams() {
   const slugs = await getAllSlugs();
   return slugs.map((slug) => ({ slug }));
+}
+
+export async function generateMetadata(
+  { params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const post = await getPostBySlug(slug);
+  if (!post) notFound();
+
+  const url = `${BASE_URL}/blog/${slug}`;
+
+  const meta = getContentFromMarkdown(post.content);
+
+  const title = meta?.title ?? "Blog post";
+  const description =
+    `${meta?.quote ?? "Read the full article"} — EventGear PDX`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      type: "website",
+      url,
+      title,
+      description,
+      images: meta?.cover || `${BASE_URL}/blog/default.jpg`,
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: meta?.cover || `${BASE_URL}/blog/default.jpg`,
+    },
+  };
 }
 
 export default async function BlogPostPage({

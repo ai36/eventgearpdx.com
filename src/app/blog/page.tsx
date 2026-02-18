@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Pagination from "@/components/Pagination";
 import BlogPostsList from "@/components/BlogPostsList";
 import { getAllPostsMeta } from "./blog";
@@ -5,6 +6,12 @@ import { BLOG_POSTS_PER_PAGE } from "@/constants";
 import type { BlogPost } from "@/types";
 
 export const dynamic = "force-static";
+
+export const metadata: Metadata = {
+  title: "All posts",
+  alternates: { canonical: "/blog" },
+  openGraph: { url: "/blog" },
+};
 
 export default async function BlogPage() {
   const pageNumber = 1;

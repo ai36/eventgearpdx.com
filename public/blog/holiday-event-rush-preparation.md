@@ -30,7 +30,7 @@ draft: false
 
 ![Holiday event preparation](/blog/images/holiday-event-rush-preparation/cover.jpg)
 
-> As the holiday season approaches, EventGear is entering one of the busiest periods of the year across Portland, Oregon and Vancouver, Washington. Corporate celebrations, nonprofit galas, and internal town halls are already filling the calendar for November and December.
+> As the holiday season approaches, EventGear is entering one of the busiest periods of the year across Portland, Oregon and Vancouver, Washington. Corporate celebrations, nonprofit galas, and internal town halls are already filling the calendar for November and December
 
 Our operations team has completed a full preventive maintenance cycle on core inventory to ensure consistent performance during peak demand. Additional staging space has also been activated to support faster turnaround between back to back events.
 

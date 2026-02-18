@@ -30,7 +30,7 @@ draft: false
 
 ![Projector maintenance](/blog/images/projector-lamp-refresh-program/cover.jpg)
 
-> To maintain consistent image quality across our rental fleet, EventGear has completed the annual projector lamp refresh program ahead of the winter conference season. This initiative focuses on brightness stability and color accuracy for high impact presentations.
+> To maintain consistent image quality across our rental fleet, EventGear has completed the annual projector lamp refresh program ahead of the winter conference season. This initiative focuses on brightness stability and color accuracy for high impact presentations
 
 Each unit in our Portland and Vancouver inventory underwent runtime analysis and optical inspection. Lamps approaching performance thresholds were proactively replaced, and systems were recalibrated under controlled test conditions.
 

@@ -30,7 +30,7 @@ draft: false
 
 ![Wireless microphones](/blog/images/new-wireless-microphone-kits/cover.jpg)
 
-> Clear audio remains one of the most critical elements of any successful presentation. In response to client feedback, EventGear has added a new line of professional wireless microphone kits to our rental inventory in Portland and Vancouver.
+> Clear audio remains one of the most critical elements of any successful presentation. In response to client feedback, EventGear has added a new line of professional wireless microphone kits to our rental inventory in Portland and Vancouver
 
 The updated systems offer improved signal stability, longer battery life, and simplified frequency coordination for busy RF environments. They are well suited for corporate meetings, hotel ballrooms, and hybrid events where reliability is essential.
 

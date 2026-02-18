@@ -30,7 +30,7 @@ draft: false
 
 ![Delivery service](/blog/images/expanded-delivery-coverage/cover.jpg)
 
-> To better support growing client demand, EventGear has expanded its delivery and pickup coverage throughout the greater Portland metropolitan area and Southwest Washington. The update allows for more flexible scheduling and faster response times for last minute requests.
+> To better support growing client demand, EventGear has expanded its delivery and pickup coverage throughout the greater Portland metropolitan area and Southwest Washington. The update allows for more flexible scheduling and faster response times for last minute requests
 
 Our logistics team has added new routing capacity and refined staging procedures to keep equipment moving efficiently between venues. This improvement is especially valuable for clients managing multi location programs or tight setup windows.
 
