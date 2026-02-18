@@ -7,7 +7,7 @@ type ChangeFreq = NonNullable<MetadataRoute.Sitemap[number]["changeFrequency"]>;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_ORIGIN ?? "https://eventgearpdx.vercel.app";
+    process.env.NEXT_PUBLIC_SITE_ORIGIN ?? "https://eventgearpdx.com";
 
   const lastModified = new Date();
 
