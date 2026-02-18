@@ -30,7 +30,7 @@ draft: false
 
 ![Hybrid event support](/blog/images/support-for-hybrid-events/cover.jpg)
 
-> Hybrid meetings continue to be a priority for many organizations in the Portland and Vancouver business community. Over the past month, EventGear has supported an increasing number of events that combine in room audiences with remote participants.
+> Hybrid meetings continue to be a priority for many organizations in the Portland and Vancouver business community. Over the past month, EventGear has supported an increasing number of events that combine in room audiences with remote participants
 
 To meet this demand, we have refined our standard hybrid packages, integrating reliable switching, confidence monitors, and optimized audio routing. Our goal is to help presenters communicate clearly with both live and virtual attendees without adding complexity for event planners.
 

@@ -30,7 +30,7 @@ draft: false
 
 ![Summer events](/blog/images/summer-bookings-open/cover.jpg)
 
-> With warmer months approaching, EventGear is officially opening priority booking for summer events throughout Portland, Oregon and nearby Vancouver, Washington. Presentations, company events, and association meetings are already appearing on the calendar.
+> With warmer months approaching, EventGear is officially opening priority booking for summer events throughout Portland, Oregon and nearby Vancouver, Washington. Presentations, company events, and association meetings are already appearing on the calendar
 
 Our team has prepared weather aware AV packages that perform reliably in outdoor and mixed environments. From portable sound systems to high brightness displays, we help organizers maintain professional production quality even outside traditional venues.
 
