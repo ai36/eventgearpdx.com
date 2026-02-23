@@ -30,6 +30,8 @@ export const metadata: Metadata = {
     "Turn-key projector and screen rental for meetings, pitches, and trainings in Portland, OR and Vancouver, WA. Delivery, setup, and on-site support.",
   authors: [{ name: "Event Gear PDX" }],
 
+  alternates: { canonical: "/" },
+
   icons: {
     icon: "/favicon.svg",
   },
@@ -39,12 +41,12 @@ export const metadata: Metadata = {
     description:
       "Turn-key projector and screen rental with delivery, setup, and on-site support in the Pacific Northwest.",
     type: "website",
-    images: ["/opengraph-image-p98pqg.png"],
+    images: ["/hero-image.jpg"],
   },
 
   twitter: {
     card: "summary_large_image",
-    images: ["/opengraph-image-p98pqg.png"],
+    images: ["/hero-image.jpg"],
   },
 };
 
