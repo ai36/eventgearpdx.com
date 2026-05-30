@@ -140,3 +140,6 @@ vite.config.ts.timestamp-*
 
 # Custom
 _
+
+# Agents
+_agents

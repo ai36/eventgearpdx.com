@@ -16,7 +16,7 @@ export function CookieBanner() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const consent = getCookie("analytics_consent");
+    const consent = getCookie("analytics_eventgearpdx_consent");
     setVisible(consent !== "granted" && consent !== "denied");
   }, []);
 
@@ -51,7 +51,7 @@ export function CookieBanner() {
             type="submit"
             className="border border-primary/30 dark:border-primary/30 text-primary dark:text-primary font-medium px-8 py-4 rounded-lg text-center hover:bg-primary/10 transition-colors text-base"
             onClick={() => {
-              setCookie("analytics_consent", "denied");
+              setCookie("analytics_eventgearpdx_consent", "denied");
               setVisible(false);
             }}
           >

@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
 import Pagination from "@/components/Pagination";
 import BlogPostsList from "@/components/BlogPostsList";
-import { getAllPostsMeta } from "../../blog";
+import { getAllPostsMeta, getPaginatedPosts } from "../../blog";
 import { notFound } from "next/navigation";
-import { BLOG_POSTS_PER_PAGE } from "@/constants";
 import type { BlogPost } from "@/types";
 
 export const dynamic = "force-static";
 
 export async function generateStaticParams() {
   const allPosts = (await getAllPostsMeta()) as BlogPost[];
-  const totalPages = Math.ceil(allPosts.length / BLOG_POSTS_PER_PAGE);
+  const { totalPages } = getPaginatedPosts(allPosts, 1);
 
   return Array.from({ length: totalPages - 1 }, (_, i) => ({
     page: String(i + 2),
@@ -28,7 +27,7 @@ export async function generateMetadata({
   if (!Number.isInteger(pageNumber) || pageNumber < 2) notFound();
 
   const allPosts = (await getAllPostsMeta()) as BlogPost[];
-  const totalPages = Math.ceil(allPosts.length / BLOG_POSTS_PER_PAGE);
+  const { totalPages } = getPaginatedPosts(allPosts, pageNumber);
   if (pageNumber > totalPages) notFound();
 
   const url = `/blog/${pageNumber}`;
@@ -53,14 +52,9 @@ export default async function BlogIndexPage({
   if (!Number.isInteger(pageNumber) || pageNumber < 2) notFound();
 
   const allPosts = (await getAllPostsMeta()) as BlogPost[];
-  const totalPages = Math.ceil(allPosts.length / BLOG_POSTS_PER_PAGE);
+  const { posts, totalPages } = getPaginatedPosts(allPosts, pageNumber);
 
   if (pageNumber > totalPages) notFound();
-
-  const posts = allPosts.slice(
-    (pageNumber - 1) * BLOG_POSTS_PER_PAGE,
-    pageNumber * BLOG_POSTS_PER_PAGE,
-  );
 
   return (
     <main className="flex-1 mt-16 py-24 max-w-xl mx-auto">
