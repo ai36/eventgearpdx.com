@@ -16,6 +16,14 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+### Before making code changes
+
+The SEO deploy agent commits new blog content to `main` daily. Always sync before starting work to avoid conflicts:
+
+```sh
+git pull origin main
+```
+
 
 ## Tech Stack
 
