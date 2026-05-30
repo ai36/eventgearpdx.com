@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
 import type { BlogPost, PostImage } from "@/types";
+import { BLOG_POSTS_PER_PAGE } from "@/constants";
 
 const POSTS_DIR = path.join(process.cwd(), "public", "blog");
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "";
@@ -46,13 +47,14 @@ export async function getPostBySlug(slug: string) {
 export async function getAllPostsMeta() {
   const slugs = await getAllSlugs();
   const posts = await Promise.all(slugs.map(getPostBySlug));
+  return posts.sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+}
 
-  // сортировка, например по date или по имени файла
-  return posts
-    .map((p: BlogPost) => ({
-      ...p,
-      slug: p.slug,
-      content: p.content,
-    }))
-    .sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+export function getPaginatedPosts(allPosts: BlogPost[], page: number) {
+  const totalPages = Math.ceil(allPosts.length / BLOG_POSTS_PER_PAGE);
+  const posts = allPosts.slice(
+    (page - 1) * BLOG_POSTS_PER_PAGE,
+    page * BLOG_POSTS_PER_PAGE,
+  );
+  return { posts, totalPages };
 }

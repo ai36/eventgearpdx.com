@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { getAllSlugs, getPostBySlug } from "../blog";
 import { markdownToHtml } from "../markdownToHtml";
+import { parseFaqFromMarkdown } from "@/lib/parseFaq";
+import FaqSection from "@/components/blog/FaqSection";
+import Contact from "@/components/Contact";
 import Image from "next/image";
 import { getAuthorAvatarByName, formatDate, getContentFromMarkdown } from "@/lib";
 import { notFound } from "next/navigation";
@@ -49,6 +52,9 @@ export async function generateMetadata(
   };
 }
 
+const proseClasses =
+  "max-w-xl mx-auto prose prose-md dark:prose-invert text-sm text-muted-foreground prose-ul:leading-none prose-img:rounded-xl prose-blockquote:text-2xl prose-blockquote:font-thin prose-blockquote:px-6 prose-blockquote:border-x-0 prose-blockquote:border-y prose-blockquote:border-accent prose-blockquote:text-foreground/70 [&_.not-prose]:text-sm [&_.not-prose]:text-muted-foreground";
+
 export default async function BlogPostPage({
   params,
 }: {
@@ -57,8 +63,16 @@ export default async function BlogPostPage({
   const { slug } = await params;
   const post = await getPostBySlug(slug);
 
+  const { faqItems, beforeFaq, afterFaq } = parseFaqFromMarkdown(post.content);
+
+  const [beforeHtml, afterHtml] = await Promise.all([
+    markdownToHtml(beforeFaq),
+    afterFaq ? markdownToHtml(afterFaq) : Promise.resolve(""),
+  ]);
+
   return (
-    <main className="flex-1 mt-16 py-24 mx-auto">
+    <>
+    <main className="flex-1 mt-16 pt-24 mx-auto">
       <div className="container mx-auto px-6">
         <article className="max-w-xl mx-auto">
           <p className="text-sm font-medium tracking-widest uppercase text-accent mb-6">
@@ -96,15 +110,15 @@ export default async function BlogPostPage({
             </span>
           </div>
 
-          <div
-            className="max-w-xl mx-auto prose prose-md dark:prose-invert text-sm text-muted-foreground prose-ul:leading-none prose-img:rounded-xl
-                   prose-blockquote:text-2xl prose-blockquote:font-thin prose-blockquote:px-6 prose-blockquote:border-x-0 prose-blockquote:border-y prose-blockquote:border-accent prose-blockquote:text-foreground/70"
-            dangerouslySetInnerHTML={{
-              __html: await markdownToHtml(post.content),
-            }}
-          />
+          <div className={proseClasses}>
+            <div dangerouslySetInnerHTML={{ __html: beforeHtml }} />
+            {faqItems.length > 0 && <FaqSection items={faqItems} />}
+            {afterHtml && <div dangerouslySetInnerHTML={{ __html: afterHtml }} />}
+          </div>
         </article>
       </div>
     </main>
+    <Contact />
+  </>
   );
 }
