@@ -30,7 +30,7 @@ export async function generateMetadata({
   const { totalPages } = getPaginatedPosts(allPosts, pageNumber);
   if (pageNumber > totalPages) notFound();
 
-  const url = `/blog/${pageNumber}`;
+  const url = `/blog/page/${pageNumber}`;
 
   return {
     title: `All posts — Page ${pageNumber}`,
