@@ -169,6 +169,38 @@ const nextConfig: NextConfig = {
         destination: "/blog/av-for-venues-not-built-for-presentations",
         permanent: true,
       },
+      // Backlog item 3: posts about venues that advertise AV — merged into
+      // one article about verifying what a venue covers and filling the gap.
+      {
+        source: "/blog/corporate-event-space-with-av-equipment",
+        destination: "/blog/conference-center-audio-visual-equipment",
+        permanent: true,
+      },
+      {
+        source: "/blog/conference-venue-with-av-access-portland",
+        destination: "/blog/conference-center-audio-visual-equipment",
+        permanent: true,
+      },
+      {
+        source: "/blog/meeting-venue-with-av-access-portland",
+        destination: "/blog/conference-center-audio-visual-equipment",
+        permanent: true,
+      },
+      {
+        source: "/blog/conference-suites-equipment",
+        destination: "/blog/conference-center-audio-visual-equipment",
+        permanent: true,
+      },
+      {
+        source: "/blog/pro-audio-vendors-hotel-resort-av-systems",
+        destination: "/blog/conference-center-audio-visual-equipment",
+        permanent: true,
+      },
+      {
+        source: "/blog/pro-audio-equipment-suppliers-hotel-event-spaces",
+        destination: "/blog/conference-center-audio-visual-equipment",
+        permanent: true,
+      },
     ];
   },
 };

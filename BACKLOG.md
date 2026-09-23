@@ -48,35 +48,6 @@
 
 Пункт закрывается, когда выполнен шаг 7, и сразу удаляется отсюда по шагу 8.
 
-### 1. Новая статья «Обычный офис → переговорная на день» — ждёт только шага 7
-
-Сделано 23.09.2026: статья `turn-any-room-into-meeting-room-for-a-day` опубликована
-(PR #81), 22 статьи удалены и перенаправлены на неё, запросы внесены в `exclusions.txt`.
-
-- [ ] Шаг 7 после слияния `dev` в `main`: запросить индексирование
-  `/blog/turn-any-room-into-meeting-room-for-a-day` и повторно отправить sitemap.
-  После этого удалить пункт.
-
-### 2. Новая статья «AV на площадке, не рассчитанной на презентации» — ждёт только шага 7
-
-Сделано 23.09.2026: статья `av-for-venues-not-built-for-presentations` опубликована,
-10 статей удалены и перенаправлены на неё, запросы внесены в `exclusions.txt`.
-
-- [ ] Шаг 7 после слияния `dev` в `main`: запросить индексирование
-  `/blog/av-for-venues-not-built-for-presentations` и повторно отправить sitemap.
-  После этого удалить пункт.
-
-### 3. Частично оборудованные площадки
-
-- [ ] Хаб `conference-center-audio-visual-equipment`: что есть у площадки, что довезти,
-  техник на всё событие; проверить у площадки эксклюзивного AV-подрядчика и сборы
-  за стороннего поставщика.
-- Перенаправить на хаб 6 статей: `corporate-event-space-with-av-equipment`,
-  `conference-venue-with-av-access-portland`, `meeting-venue-with-av-access-portland`,
-  `conference-suites-equipment`, `pro-audio-vendors-hotel-resort-av-systems`,
-  `pro-audio-equipment-suppliers-hotel-event-spaces`.
-- GSC: `/blog/conference-center-audio-visual-equipment`.
-
 ### 4. Проекторы
 
 - [ ] Хаб `projector-rental-portland`: проектор и экран под ключ с техником, без самовывоза
