@@ -48,13 +48,6 @@
 
 Пункт закрывается, когда выполнен шаг 7, и сразу удаляется отсюда по шагу 8.
 
-### 5. Оборудование для презентаций
-
-- [ ] Хаб `presentation-rental-portland`: проектор, экран, микрофон, кликер, техник.
-- Перенаправить на хаб 2 статьи: `presentation-rentals-portland`,
-  `hire-presentation-equipment-portland`.
-- GSC: `/blog/presentation-rental-portland`.
-
 ### 6. Настройка AV
 
 - [ ] Хаб `av-setup-for-events` — общий гайд, взять лучшее из `av-configuration-for-events`.
