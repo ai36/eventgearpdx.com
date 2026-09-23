@@ -18,7 +18,7 @@
 
 ## Новые статьи
 
-### `turn-office-into-meeting-room-portland`
+### `turn-any-room-into-meeting-room-for-a-day`
 
 Как превратить обычный офис или помещение в переговорную на день: что привезти, как развернуть, техник на всё событие.
 
@@ -100,28 +100,28 @@ AV для выездного мероприятия на нестандартн�
 | `/blog/renting-a-projector-portland` | 7 | `/blog/projector-rental-portland` |
 | `/blog/renting-projectors-portland` | 0 | `/blog/projector-rental-portland` |
 | `/blog/questions-to-ask-av-company-before-scottsdale-event` | 0 | `/blog/questions-to-ask-av-company-before-event` |
-| `/blog/av-setup-for-conference-room-dayton` | 45 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/beavercreek-oh-meeting-space-av-equipment` | 44 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/boardroom-rental-trophy-club` | 9 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/conference-room-av-fort-worth` | 9 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/conference-room-solutions-pittsburgh` | 5 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/conference-space-trophy-club-tx` | 48 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/corporate-meeting-space-trophy-club` | 60 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/led-video-wall-setups-conference-rooms-boardrooms` | 0 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/meeting-room-av-equipment-levis-quebec` | 42 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/meeting-room-technology-fort-worth` | 0 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/meeting-rooms-av-equipment-burnaby` | 61 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/meeting-rooms-av-equipment-downtown-pittsburgh` | 152 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/meeting-rooms-av-equipment-emory-area-atlanta` | 0 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/meeting-rooms-av-equipment-trophy-club-texas` | 153 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/meeting-rooms-with-av-equipment-calgary-alberta` | 61 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/meeting-space-av-equipment-beavercreek-ohio` | 27 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/meeting-space-av-equipment-grand-prairie-tx` | 10 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/rent-conference-room-av-equipment-tech-support` | 0 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/rent-conference-room-trophy-club` | 53 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/shared-office-space-trophy-club` | 58 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/short-term-office-lease-trophy-club` | 0 | `/blog/turn-office-into-meeting-room-portland` |
-| `/blog/small-meeting-room-trophy-club` | 29 | `/blog/turn-office-into-meeting-room-portland` |
+| `/blog/av-setup-for-conference-room-dayton` | 45 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/beavercreek-oh-meeting-space-av-equipment` | 44 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/boardroom-rental-trophy-club` | 9 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/conference-room-av-fort-worth` | 9 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/conference-room-solutions-pittsburgh` | 5 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/conference-space-trophy-club-tx` | 48 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/corporate-meeting-space-trophy-club` | 60 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/led-video-wall-setups-conference-rooms-boardrooms` | 0 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/meeting-room-av-equipment-levis-quebec` | 42 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/meeting-room-technology-fort-worth` | 0 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/meeting-rooms-av-equipment-burnaby` | 61 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/meeting-rooms-av-equipment-downtown-pittsburgh` | 152 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/meeting-rooms-av-equipment-emory-area-atlanta` | 0 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/meeting-rooms-av-equipment-trophy-club-texas` | 153 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/meeting-rooms-with-av-equipment-calgary-alberta` | 61 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/meeting-space-av-equipment-beavercreek-ohio` | 27 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/meeting-space-av-equipment-grand-prairie-tx` | 10 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/rent-conference-room-av-equipment-tech-support` | 0 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/rent-conference-room-trophy-club` | 53 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/shared-office-space-trophy-club` | 58 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/short-term-office-lease-trophy-club` | 0 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
+| `/blog/small-meeting-room-trophy-club` | 29 | `/blog/turn-any-room-into-meeting-room-for-a-day` |
 | `/blog/audio-visual-company-budgeting` | 2 | `/blog/what-are-av-costs-event-rental` |
 | `/blog/how-to-estimate-an-av-project` | 18 | `/blog/what-are-av-costs-event-rental` |
 | `/blog/av-acronym-what-it-means-for-events` | 0 | `/blog/what-does-av-stand-for-in-events` |

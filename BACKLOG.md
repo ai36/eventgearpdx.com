@@ -36,9 +36,12 @@
 
 ### 1. Новая статья «Обычный офис → переговорная на день»
 
-- [ ] Новая статья `turn-office-into-meeting-room-portland` пишется seo-writer через
+- [x] Новая статья `turn-any-room-into-meeting-room-for-a-day` (опубликована 23.09.2026, PR #81) написана seo-writer через
   `from-text` по брифу и проходит обычную проверку черновика. После автопубликации
   deploy-agent сам запросит её индексирование; перед шагами 2–6 подтянуть `main` в `dev`.
+- [x] 22 статьи удалены с обложками, перенаправления 301 прописаны в `next.config.ts`,
+  их запросы добавлены в `exclusions.txt` на кластере (23.09.2026).
+- [ ] Осталось: после слияния `dev` в `main` — шаг 7 (GSC).
 - Перенаправить на неё 22 статьи: `meeting-rooms-av-equipment-trophy-club-texas`,
   `conference-space-trophy-club-tx`, `corporate-meeting-space-trophy-club`,
   `rent-conference-room-trophy-club`, `boardroom-rental-trophy-club`,
@@ -51,7 +54,7 @@
   `rent-conference-room-av-equipment-tech-support`, `meeting-room-technology-fort-worth`,
   `conference-room-av-fort-worth`, `av-setup-for-conference-room-dayton`,
   `led-video-wall-setups-conference-rooms-boardrooms`.
-- GSC: `/blog/turn-office-into-meeting-room-portland`.
+- GSC: `/blog/turn-any-room-into-meeting-room-for-a-day`.
 
 ### 2. Новая статья «AV для выездного мероприятия на нестандартной площадке»
 
