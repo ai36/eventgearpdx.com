@@ -116,6 +116,59 @@ const nextConfig: NextConfig = {
         destination: "/blog/turn-any-room-into-meeting-room-for-a-day",
         permanent: true,
       },
+      // Backlog item 2: posts about finding a venue that already has AV —
+      // merged into one article about bringing AV into venues built for
+      // something else (restaurants, airport hotels, stadium suites).
+      {
+        source: "/blog/restaurants-with-private-rooms-and-av-equipment",
+        destination: "/blog/av-for-venues-not-built-for-presentations",
+        permanent: true,
+      },
+      {
+        source: "/blog/conference-rooms-near-pdx-airport",
+        destination: "/blog/av-for-venues-not-built-for-presentations",
+        permanent: true,
+      },
+      {
+        source: "/blog/dfw-airport-meeting-space",
+        destination: "/blog/av-for-venues-not-built-for-presentations",
+        permanent: true,
+      },
+      {
+        source: "/blog/event-room-near-fort-worth-airport",
+        destination: "/blog/av-for-venues-not-built-for-presentations",
+        permanent: true,
+      },
+      {
+        source: "/blog/meeting-rooms-av-equipment-near-fort-worth-airport",
+        destination: "/blog/av-for-venues-not-built-for-presentations",
+        permanent: true,
+      },
+      {
+        source: "/blog/corporate-events-at-hgv-stadium-portland",
+        destination: "/blog/av-for-venues-not-built-for-presentations",
+        permanent: true,
+      },
+      {
+        source: "/blog/easyas-hgv-stadium-meeting-rooms-capacity",
+        destination: "/blog/av-for-venues-not-built-for-presentations",
+        permanent: true,
+      },
+      {
+        source: "/blog/event-rooms-with-av-equipment-conway-ar",
+        destination: "/blog/av-for-venues-not-built-for-presentations",
+        permanent: true,
+      },
+      {
+        source: "/blog/event-venues-with-av-equipment-mount-kisco",
+        destination: "/blog/av-for-venues-not-built-for-presentations",
+        permanent: true,
+      },
+      {
+        source: "/blog/meeting-space-av-equipment-fallsview-tourist-district",
+        destination: "/blog/av-for-venues-not-built-for-presentations",
+        permanent: true,
+      },
     ];
   },
 };

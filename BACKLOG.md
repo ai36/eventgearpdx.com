@@ -16,8 +16,17 @@
 2. **Перенаправления.** Для каждой поглощённой статьи добавить в `next.config.ts`
    (`redirects()`, `permanent: true`) правило `/blog/<старый slug>` → `/blog/<хаб>`.
    Цепочек перенаправлений не допускать.
-3. **Состояние агентов на кластере.** Запросы поглощённых статей оставить в
-   `published_pages.json` и добавить в `exclusions.txt`, чтобы агент не написал их заново.
+3. **Состояние агентов на кластере.**
+   - Запросы поглощённых статей оставить в `published_pages.json` и добавить в
+     `exclusions.txt`, чтобы агент не написал их заново.
+   - **Обязательно** удалить поглощённые статьи и их обложки из накопительной папки
+     `/srv/swarm/eventgearpdx/shared/blog/{content,images}`. Она накопительная:
+     deploy-agent копирует из неё всё при каждом запуске, поэтому оставленный там
+     файл вернёт удалённую статью обратно в `main`.
+   - Новая статья попадает в `main` через deploy-agent, но он публикует не чаще
+     раза в сутки (ветка `content/<дата>`). Если он сегодня уже отработал, забрать
+     статью и обложку из `shared/blog` в `dev` вручную — иначе перенаправления
+     будут вести на несуществующую страницу.
 4. **Проверка.** `npm run build` проходит; локально хабы отдают 200, старые адреса —
    перенаправление на хаб; в статьях пункта не осталось ложных обещаний;
    внутренние ссылки на удалённые статьи заменены ссылками на хабы.
@@ -32,41 +41,30 @@
    - через 1–2 недели в отчёте «Индексирование страниц» старые адреса должны перейти
      в «Страница с переадресацией», а хаб — в проиндексированные.
 
-Пункт закрывается, когда выполнен шаг 7.
+8. **Удалить закрытый пункт из этого файла.** Пункты не копятся отмеченными:
+   выполненное живёт в `CHANGELOG.md`, здесь остаётся только незакрытая работа.
+   Пункты не перенумеровываются — номера закреплены за темами, чтобы ссылка
+   «пункт N» не меняла смысл.
 
-### 1. Новая статья «Обычный офис → переговорная на день»
+Пункт закрывается, когда выполнен шаг 7, и сразу удаляется отсюда по шагу 8.
 
-- [x] Новая статья `turn-any-room-into-meeting-room-for-a-day` (опубликована 23.09.2026, PR #81) написана seo-writer через
-  `from-text` по брифу и проходит обычную проверку черновика. После автопубликации
-  deploy-agent сам запросит её индексирование; перед шагами 2–6 подтянуть `main` в `dev`.
-- [x] 22 статьи удалены с обложками, перенаправления 301 прописаны в `next.config.ts`,
-  их запросы добавлены в `exclusions.txt` на кластере (23.09.2026).
-- [ ] Осталось: после слияния `dev` в `main` — шаг 7 (GSC).
-- Перенаправить на неё 22 статьи: `meeting-rooms-av-equipment-trophy-club-texas`,
-  `conference-space-trophy-club-tx`, `corporate-meeting-space-trophy-club`,
-  `rent-conference-room-trophy-club`, `boardroom-rental-trophy-club`,
-  `small-meeting-room-trophy-club`, `shared-office-space-trophy-club`,
-  `short-term-office-lease-trophy-club`, `meeting-rooms-av-equipment-downtown-pittsburgh`,
-  `conference-room-solutions-pittsburgh`, `meeting-rooms-with-av-equipment-calgary-alberta`,
-  `meeting-rooms-av-equipment-burnaby`, `meeting-room-av-equipment-levis-quebec`,
-  `meeting-space-av-equipment-beavercreek-ohio`, `beavercreek-oh-meeting-space-av-equipment`,
-  `meeting-space-av-equipment-grand-prairie-tx`, `meeting-rooms-av-equipment-emory-area-atlanta`,
-  `rent-conference-room-av-equipment-tech-support`, `meeting-room-technology-fort-worth`,
-  `conference-room-av-fort-worth`, `av-setup-for-conference-room-dayton`,
-  `led-video-wall-setups-conference-rooms-boardrooms`.
-- GSC: `/blog/turn-any-room-into-meeting-room-for-a-day`.
+### 1. Новая статья «Обычный офис → переговорная на день» — ждёт только шага 7
 
-### 2. Новая статья «AV для выездного мероприятия на нестандартной площадке»
+Сделано 23.09.2026: статья `turn-any-room-into-meeting-room-for-a-day` опубликована
+(PR #81), 22 статьи удалены и перенаправлены на неё, запросы внесены в `exclusions.txt`.
 
-- [ ] Новая статья `offsite-event-av-non-traditional-venues-portland` (ресторан, номер отеля
-  у аэропорта, ложа стадиона, винодельня) — так же, как в пункте 1, через `from-text`.
-- Перенаправить на неё 10 статей: `restaurants-with-private-rooms-and-av-equipment`,
-  `conference-rooms-near-pdx-airport`, `dfw-airport-meeting-space`,
-  `event-room-near-fort-worth-airport`, `meeting-rooms-av-equipment-near-fort-worth-airport`,
-  `corporate-events-at-hgv-stadium-portland`, `easyas-hgv-stadium-meeting-rooms-capacity`,
-  `event-rooms-with-av-equipment-conway-ar`, `event-venues-with-av-equipment-mount-kisco`,
-  `meeting-space-av-equipment-fallsview-tourist-district`.
-- GSC: `/blog/offsite-event-av-non-traditional-venues-portland`.
+- [ ] Шаг 7 после слияния `dev` в `main`: запросить индексирование
+  `/blog/turn-any-room-into-meeting-room-for-a-day` и повторно отправить sitemap.
+  После этого удалить пункт.
+
+### 2. Новая статья «AV на площадке, не рассчитанной на презентации» — ждёт только шага 7
+
+Сделано 23.09.2026: статья `av-for-venues-not-built-for-presentations` опубликована,
+10 статей удалены и перенаправлены на неё, запросы внесены в `exclusions.txt`.
+
+- [ ] Шаг 7 после слияния `dev` в `main`: запросить индексирование
+  `/blog/av-for-venues-not-built-for-presentations` и повторно отправить sitemap.
+  После этого удалить пункт.
 
 ### 3. Частично оборудованные площадки
 
