@@ -201,6 +201,32 @@ const nextConfig: NextConfig = {
         destination: "/blog/conference-center-audio-visual-equipment",
         permanent: true,
       },
+      // Backlog item 4: five near-duplicate projector posts merged into one.
+      {
+        source: "/blog/projector-rentals-portland",
+        destination: "/blog/projector-rental-portland",
+        permanent: true,
+      },
+      {
+        source: "/blog/projector-for-rent-portland",
+        destination: "/blog/projector-rental-portland",
+        permanent: true,
+      },
+      {
+        source: "/blog/renting-a-projector-portland",
+        destination: "/blog/projector-rental-portland",
+        permanent: true,
+      },
+      {
+        source: "/blog/renting-projectors-portland",
+        destination: "/blog/projector-rental-portland",
+        permanent: true,
+      },
+      {
+        source: "/blog/large-venue-projector-rental-portland",
+        destination: "/blog/projector-rental-portland",
+        permanent: true,
+      },
     ];
   },
 };
