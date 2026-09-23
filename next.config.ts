@@ -227,6 +227,17 @@ const nextConfig: NextConfig = {
         destination: "/blog/projector-rental-portland",
         permanent: true,
       },
+      // Backlog item 5: duplicate presentation-equipment posts.
+      {
+        source: "/blog/presentation-rentals-portland",
+        destination: "/blog/presentation-rental-portland",
+        permanent: true,
+      },
+      {
+        source: "/blog/hire-presentation-equipment-portland",
+        destination: "/blog/presentation-rental-portland",
+        permanent: true,
+      },
     ];
   },
 };
