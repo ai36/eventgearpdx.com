@@ -48,16 +48,6 @@
 
 Пункт закрывается, когда выполнен шаг 7, и сразу удаляется отсюда по шагу 8.
 
-### 6. Настройка AV
-
-- [ ] Хаб `av-setup-for-events` — общий гайд, взять лучшее из `av-configuration-for-events`.
-  Перенаправить на него: `audio-visual-setup-for-events`, `av-configuration-for-events`.
-- [ ] Хаб `av-setup-portland-event-rental` — сервисная страница «настройка AV в Портленде
-  под ключ». Перенаправить на него: `audio-video-setup-portland-event-rental`.
-- [ ] `av-set-up-meaning` — оставить, привести к модели, сослаться на `av-setup-for-events`.
-- GSC: `/blog/av-setup-for-events`, `/blog/av-setup-portland-event-rental`,
-  `/blog/av-set-up-meaning`.
-
 ### 7. Стоимость, сметы, расчёт оборудования
 
 - [ ] Хаб `what-are-av-costs-event-rental` — из чего складывается цена, без выдуманных цифр.

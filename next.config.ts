@@ -238,6 +238,23 @@ const nextConfig: NextConfig = {
         destination: "/blog/presentation-rental-portland",
         permanent: true,
       },
+      // Backlog item 6: duplicate AV-setup posts split between the how-to guide
+      // and the Portland service page.
+      {
+        source: "/blog/audio-visual-setup-for-events",
+        destination: "/blog/av-setup-for-events",
+        permanent: true,
+      },
+      {
+        source: "/blog/av-configuration-for-events",
+        destination: "/blog/av-setup-for-events",
+        permanent: true,
+      },
+      {
+        source: "/blog/audio-video-setup-portland-event-rental",
+        destination: "/blog/av-setup-portland-event-rental",
+        permanent: true,
+      },
     ];
   },
 };
