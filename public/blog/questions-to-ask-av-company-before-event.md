@@ -1,6 +1,6 @@
 ---
-slug: "questions-to-ask-av-company-before-scottsdale-event"
-canonical: "blog/questions-to-ask-av-company-before-scottsdale-event"
+slug: "questions-to-ask-av-company-before-event"
+canonical: "blog/questions-to-ask-av-company-before-event"
 date: "2026-07-18T03:48:42Z"
 author: "Event Planning Team"
 author_avatar: ""
@@ -8,18 +8,18 @@ categories: ["event-planning", "tips"]
 
 images:
   cover:
-    src: "/blog/images/questions-to-ask-av-company-before-scottsdale-event/cover.jpg"
+    src: "/blog/images/questions-to-ask-av-company-before-event/cover.jpg"
     alt: "Event planner reviewing AV equipment checklist with a technician at a conference venue"
     width: 1600
     height: 900
 
-ogImage: "/blog/images/questions-to-ask-av-company-before-scottsdale-event/cover.jpg"
+ogImage: "/blog/images/questions-to-ask-av-company-before-event/cover.jpg"
 draft: false
 ---
 
 # Questions to Ask an AV Company Before Your Event
 
-![Event planner reviewing AV equipment checklist with a technician at a conference venue](/blog/images/questions-to-ask-av-company-before-scottsdale-event/cover.jpg)
+![Event planner reviewing AV equipment checklist with a technician at a conference venue](/blog/images/questions-to-ask-av-company-before-event/cover.jpg)
 
 > Before you book AV for your next event, ask these specific questions. Avoid last-minute surprises and protect your budget with the right answers upfront.
 
@@ -81,7 +81,7 @@ For a multi-session conference with breakout rooms, live audio, and projection, 
 Choosing based on price alone without confirming what's actually included. The lowest quote often excludes on-site technician time, which is precisely what you need when something goes wrong at 8:45 AM before a 9:00 AM general session.
 
 **Do I need a technician on-site for a small meeting?**
-For a basic conference room setup with a single projector and one wireless microphone, a confident self-setup can work if the vendor provides clear instructions and tested equipment. For anything with live audio mixing, multiple inputs, or streaming, on-site support is worth the cost.
+Ask what the quote assumes. Some suppliers hand over equipment and leave; others include setup, testing and someone in the room for the event. For anything with more than one microphone, live audio, or a video call, the person matters more than the equipment — at EventGear PDX a technician is part of every booking.
 
 **What should I have ready when I call an AV rental company?**
 Know your date, venue name, expected attendance, and a rough list of what you think you need — even if it's just "a projector and a microphone for 80 people." That's enough to get an accurate quote started. Venue square footage and room layout help if you have them.

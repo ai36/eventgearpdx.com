@@ -40,7 +40,7 @@ If a projector bulb dies during the CEO's slide deck or a wireless mic cuts out 
 
 ## Renting Locally Solves the Timing Problem
 
-EventGear PDX delivers to Oregon City as part of our standard Portland-metro service area, which means same-day or next-day availability if your event comes together faster than expected. Equipment is tested before it goes out, so you're not troubleshooting a dead bulb an hour before doors open. We can also walk through the venue's layout with you ahead of time — a small conference room and a 200-person banquet hall need different speaker placement and screen sizing, and getting that right on paper beats discovering it's wrong the day of.
+EventGear PDX covers Oregon City as part of the Portland-metro service area. Equipment is tested before it goes out, so you're not troubleshooting a dead bulb an hour before doors open, and a technician stays for the event rather than leaving you with the gear. We can also walk through the venue's layout with you ahead of time — a small conference room and a hall seating eighty need different speaker placement and screen sizing, and getting that right on paper beats discovering it's wrong on the day. Availability depends on the schedule, so book as soon as the date is set.
 
 ## Matching Equipment to the Actual Meeting
 
@@ -49,10 +49,10 @@ A leadership Q&A for fifty people needs a wireless handheld mic or two, a modest
 ## FAQ
 
 **How far ahead should I book equipment for a corporate event in Oregon City?**
-A week out is comfortable for standard AV packages. If your event lands inside 48 hours, call — same-day and next-day delivery is often available depending on current inventory.
+As soon as the date is fixed. A week or more is comfortable; availability depends on the schedule rather than a guaranteed turnaround, so an early enquiry is worth more than a finished equipment list.
 
 **Do I need a technician on-site, or can our staff run the equipment?**
-Most corporate setups — a projector, screen, and a couple of wireless mics — run fine with basic instructions. For larger events with multiple rooms or complex audio, on-site technician support is worth arranging in advance.
+A technician is part of every booking — they set up, test with your presenter's laptop, stay for the event and strike afterwards. There isn't a version where equipment is dropped off for your staff to run.
 
 **What if the venue already has some AV equipment built in?**
 Check what's actually there before assuming it covers your needs — many venues have a screen but no real sound system, or a house mic that's not wireless. Renting to fill the specific gap is usually cheaper than renting a full duplicate setup.

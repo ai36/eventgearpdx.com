@@ -255,6 +255,65 @@ const nextConfig: NextConfig = {
         destination: "/blog/av-setup-portland-event-rental",
         permanent: true,
       },
+      // Backlog item 7: cost, quote and equipment-estimate posts merged into three hubs.
+      {
+        source: "/blog/audio-visual-company-budgeting",
+        destination: "/blog/what-are-av-costs-event-rental",
+        permanent: true,
+      },
+      {
+        source: "/blog/how-to-estimate-an-av-project",
+        destination: "/blog/what-are-av-costs-event-rental",
+        permanent: true,
+      },
+      {
+        source: "/blog/how-to-request-event-av-quote",
+        destination: "/blog/av-quotes-portland-event-rental",
+        permanent: true,
+      },
+      {
+        source: "/blog/audiovisual-equipment-for-meetings",
+        destination: "/blog/how-to-estimate-av-equipment-needs-corporate-events",
+        permanent: true,
+      },
+      // Backlog item 8: the 'what does AV mean' cluster.
+      {
+        source: "/blog/av-stands-for",
+        destination: "/blog/what-does-av-stand-for-in-events",
+        permanent: true,
+      },
+      {
+        source: "/blog/av-acronym-what-it-means-for-events",
+        destination: "/blog/what-does-av-stand-for-in-events",
+        permanent: true,
+      },
+      {
+        source: "/blog/av-needs-meaning",
+        destination: "/blog/what-does-av-stand-for-in-events",
+        permanent: true,
+      },
+      {
+        source: "/blog/what-does-av-room-stand-for",
+        destination: "/blog/what-does-av-stand-for-in-events",
+        permanent: true,
+      },
+      {
+        source: "/blog/what-does-av-mean-on-a-projector",
+        destination: "/blog/what-does-av-stand-for-in-events",
+        permanent: true,
+      },
+      // Backlog item 9: duplicate conference AV post.
+      {
+        source: "/blog/reliable-audio-visual-equipment-rentals-conferences",
+        destination: "/blog/conference-av-rental-portland",
+        permanent: true,
+      },
+      // Backlog item 11: place name dropped from the slug.
+      {
+        source: "/blog/questions-to-ask-av-company-before-scottsdale-event",
+        destination: "/blog/questions-to-ask-av-company-before-event",
+        permanent: true,
+      },
     ];
   },
 };
