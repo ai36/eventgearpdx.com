@@ -48,15 +48,6 @@
 
 Пункт закрывается, когда выполнен шаг 7, и сразу удаляется отсюда по шагу 8.
 
-### 4. Проекторы
-
-- [ ] Хаб `projector-rental-portland`: проектор и экран под ключ с техником, без самовывоза
-  и крупных залов.
-- Перенаправить на хаб 5 статей: `projector-rentals-portland`, `projector-for-rent-portland`,
-  `renting-a-projector-portland`, `renting-projectors-portland`,
-  `large-venue-projector-rental-portland`.
-- GSC: `/blog/projector-rental-portland`.
-
 ### 5. Оборудование для презентаций
 
 - [ ] Хаб `presentation-rental-portland`: проектор, экран, микрофон, кликер, техник.
