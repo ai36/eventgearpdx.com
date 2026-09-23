@@ -17,64 +17,60 @@ ogImage: "/blog/images/event-gear-rental-portland/cover.jpg"
 draft: false
 ---
 
-# Event Gear: What Portland Organizers Actually Need (and What to Skip)
+# Event Gear in Portland: What to Rent for a One-Off Event
 
 ![AV equipment setup at a Portland event venue with projector screen and speaker system](/blog/images/event-gear-rental-portland/cover.jpg)
 
-> Planning an event in Portland? Learn how to choose the right event gear — AV equipment, sound systems, and more — without overspending or scrambling last minute.
+> A plain list of the AV gear a Portland event usually needs, what each piece is actually for, and what to leave off the list.
 
-You have a venue confirmed, a guest list finalized, and a run-of-show that looks solid on paper. What's left is the event gear — the audio, visual, and production equipment that determines whether your program lands the way you planned it. For organizers in Portland, the decision isn't just what equipment you need. It's whether to source it piecemeal from different vendors, borrow aging gear from a storage closet, or work with a single local supplier who can deliver a tested, complete setup. That decision has real consequences for your timeline, your budget, and what your audience actually experiences on the day.
+"Event gear" covers a lot of ground — tables, linens, heaters, marquees. This is about the audio and video part: the equipment that makes a presenter audible and their content visible, for events that happen once and don't justify buying anything.
 
-## The Situation Most Event Organizers Are In
+## The Short List
 
-You're coordinating a corporate dinner, a nonprofit fundraiser, a half-day conference, or a school event. The program has a presenter, a video component, maybe a panel discussion or a live Q&A. The venue has a room — four walls, a ceiling, and a power supply. What it often doesn't have is reliable AV equipment, or staff who know how to run it. That gap is where most event production problems begin.
+**A projector and screen.** For anything past a small group around a table. The back row decides the screen size, and the room's daylight decides the projector. The [projector rental guide](/blog/projector-rental-portland) covers how to size both.
 
-## Where Event Gear Decisions Go Wrong
+**A PA system.** One or two speakers on stands, aimed along the room. Needed sooner than people expect: hard floors, glass, high ceilings and ventilation noise all shorten how far a voice carries.
 
-The most common mistake isn't choosing the wrong microphone or the wrong screen size. It's underestimating how many separate components a working AV setup actually requires — and how quickly a missing cable, an incompatible input, or a speaker with no coverage in the back third of the room turns into a visible problem in front of your audience.
+**Wireless microphones.** One per person who speaks at the same time, plus one for audience questions. Handhelds for panels and Q&A, lavaliers or headsets for presenters who move.
 
-A presenter's laptop that doesn't connect to the projector. A wireless microphone that drops signal halfway through a keynote. A PA system sized for a 50-person room being pushed into a 200-person ballroom. These are not edge cases. They're the predictable result of assembling event gear without accounting for the full signal chain: source, amplification, output, and room acoustics.
+**Cabling, adapters and stands.** Unglamorous and decisive: the adapter that matches the presenter's laptop, a cable long enough to reach where they'll stand, a stand that puts the screen above people's heads.
 
-For organizers who rent equipment infrequently, the knowledge gap is the real risk. You don't know what you don't know until the room is full and the audio isn't working.
+**Hybrid kit, if anyone is remote.** A camera on the presenter and a real audio path into the call — not a laptop microphone on a table.
 
-## What's Actually at Stake
+## What Usually Isn't Worth It
 
-A failed AV setup doesn't just create an awkward moment. It undermines the credibility of the presenter, the organization, and the event itself. Attendees at a corporate conference or a fundraising gala have made time to be there. When they can't hear the speaker or the video presentation drops out, they notice — and they remember.
+Equipment for a room that already handles it. If a venue's screen genuinely suits your audience, rent the missing parts instead of a full set — that's a normal booking, not a compromise.
 
-Budget waste compounds the problem. Renting the wrong gear, or renting individual components that aren't compatible, means paying for equipment you can't fully use. Last-minute replacements — scrambling for a different projector two hours before doors open — cost more and deliver less than a single, well-planned order placed in advance.
+Oversized sound for a modest room. More output doesn't fix intelligibility; placement and the room's surfaces do.
 
-## How the Right Rental Setup Solves These Problems
+And anything we don't do: LED walls, stage or decorative lighting, staging, DJ services. Those belong to other suppliers.
 
-Professional AV rental addresses the knowledge gap directly. When you describe your event — room dimensions, expected attendance, program format, presenter requirements — an experienced supplier can spec a setup that matches the actual conditions, not a generic package.
+## How Renting Works Here
 
-For a 150-person corporate presentation, that might mean a 10-foot projection screen paired with a 5,000-lumen projector, a wireless lapel microphone for the presenter, and a two-speaker PA system with enough throw to cover the back of the room. Each component is chosen to work with the others. Nothing is left to chance at the venue.
+We deliver, set up, test the whole chain with your presenter's own laptop and slides, keep a technician in the room for the entire event, and take everything away afterwards. There's no pick-up or drop-off-only option.
 
-EventGear PDX delivers to venues across the Portland metro — including Beaverton, Hillsboro, Tigard, Lake Oswego, and Vancouver — with equipment tested before it leaves the warehouse. Same-day and next-day availability covers the situations where planning timelines compress. On-site technician support is available for events where you'd rather not have your staff troubleshooting a signal chain during the reception hour.
+Portland, Beaverton, Hillsboro, Tigard, Lake Oswego, Gresham and Vancouver WA, for events up to about 100 people. Equipment is tested before it leaves. Availability depends on the calendar — book as early as your date is set.
 
-## Choosing Gear That Matches Your Event Format
+## FAQ
 
-Not every event needs the same setup. A breakout training session in a hotel meeting room has different requirements than a keynote in a theater-style auditorium. A fundraising gala with background music and a short live auction needs a different audio configuration than a panel discussion where four speakers need to be heard clearly and simultaneously.
+**What gear does a 50-person meeting in an ordinary room need?**
+Typically a projector and a screen sized to the back row, a small PA, and one or two wireless microphones depending on who speaks. The room's daylight and surfaces decide the details.
 
-The right starting point is the program, not the equipment list. What does the audience need to see? What does the audience need to hear? Who is presenting, and how are they moving through the space? Answering those questions first — before selecting specific gear — is what separates a setup that performs from one that technically functions but creates friction throughout the event.
+**Can I rent just one item?**
+The setup is what we rent, not individual pieces off a shelf — but a booking can absolutely be one microphone and a speaker if that's all the room lacks.
 
----
+**Do you rent tables, chairs, marquees or heaters?**
+No. We're audio and video only: projection, sound, microphones, and hybrid support.
 
-## Frequently Asked Questions
+**What if the venue already has equipment?**
+We supplement it. Check first whether the venue allows outside AV — some hotels and conference centers don't, or charge for it.
 
-**How far in advance should I book event gear for a Portland event?**
-For most events, two to three weeks gives you enough lead time to confirm availability, spec the right setup, and coordinate delivery logistics with your venue. For large conferences or events on peak dates — Friday and Saturday evenings, holiday season weekends — booking four to six weeks out is safer. Same-day and next-day rentals are available for urgent needs, but inventory is subject to availability.
+**Is there a minimum booking size?**
+No minimum headcount, but every booking includes delivery, setup, a technician for the event and strike, so very small jobs still carry that service.
 
-**What information do I need to provide to get an accurate equipment quote?**
-Venue name and room dimensions, expected number of attendees, event format (presentation, panel, reception, ceremony), whether the presenter needs a microphone and what type of movement they'll have, and any existing AV infrastructure the venue already provides. The more specific your description, the more accurate the recommendation.
+**How soon should I book?**
+As soon as the date is fixed. Availability is the part that runs out, not the equipment details.
 
-**Can I rent individual components, or do I have to book a full package?**
-Both options are available. If your venue already has a working PA system but no projection setup, renting just a projector and screen is straightforward. Full packages — projector, screen, sound system, and microphones bundled together — are typically more cost-efficient for events that need a complete setup from scratch.
+## The Takeaway
 
-**What's the most common mistake organizers make when renting AV equipment?**
-Renting based on price alone without confirming compatibility. A projector rented from one source and a screen rented from another may not work well together — different throw ratios, incompatible brightness for the room size. Sourcing your complete setup from a single supplier eliminates that risk and gives you one point of contact if anything needs adjustment on event day.
-
----
-
-## Get the Right Gear for Your Event
-
-Describe your event to the EventGear PDX team — room size, attendance, program format — and we'll recommend a complete, tested setup delivered to your Portland metro venue. Reach out to start your rental quote.
+For a one-off event, the gear list is short: something to show slides, something to carry a voice, microphones for everyone who speaks, and the cables that connect it all. What turns that into a working room is the sizing and the setup — which is the part we do.

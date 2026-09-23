@@ -83,7 +83,7 @@ Channel count and frequency licensing. In Oregon, certain UHF frequency bands ar
 Depends on the event. For a 30-person internal meeting, the venue system is often fine. For a 150-person conference with video playback, a live panel, and breakout sessions, the venue system almost certainly won't cover all your needs cleanly. The cost of a rental upgrade is almost always less than the reputational cost of a presentation that didn't land.
 
 **What's a realistic timeline for evaluating and reserving AV equipment in the Portland metro?**
-For standard corporate setups, two to three weeks ahead gives you enough lead time to confirm availability, review the equipment list, and arrange delivery around your venue's load-in schedule. For large conferences or events requiring custom configurations, four to six weeks is more realistic. Same-day and next-day availability exists for standard gear, but it limits your options and removes time for any back-and-forth on specs.
+Book as soon as the date is fixed. Two to three weeks ahead gives comfortable time to confirm the equipment list and arrange setup around your venue's load-in window; anything that needs a site visit or an unusual configuration wants longer. Availability depends on the schedule rather than a fixed turnaround, so an early date is worth more than a finished specification — the details can be adjusted later.
 
 ---
 

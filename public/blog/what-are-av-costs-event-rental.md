@@ -17,71 +17,64 @@ ogImage: "/blog/images/what-are-av-costs-event-rental/cover.jpg"
 draft: false
 ---
 
-# What Are AV Costs for Events? A Practical Breakdown
+# What Drives the Cost of AV for an Event
 
 ![Event planner reviewing budget documents at a conference table with AV equipment in the background](/blog/images/what-are-av-costs-event-rental/cover.jpg)
 
-> What are AV costs for your Portland event? Break down projector, PA, and microphone rental pricing so you can budget accurately and avoid surprises.
+> The things that actually move an AV price — room, headcount, how many people speak, labour hours, access — and how to build a budget line you won't have to revise twice.
 
-When you're building a budget for a corporate meeting, nonprofit gala, or multi-day conference in Portland, AV costs are often the line item that surprises people most. The quote comes in higher than expected, or it arrives too late to adjust other spending. Part of the problem is that "AV" covers a wide range of equipment and services — a single wireless microphone for a breakout room and a full projection and PA system for a 400-person ballroom are both "AV," but they sit in completely different budget categories. This guide breaks down what drives AV rental costs, what you should expect to pay for common event setups, and where most planners lose money without realizing it.
+AV is one of the harder lines to budget because the same event described in two sentences can cost very different amounts. "A projector and a mic for fifty people" says nothing about whether the room has daylight, whether three people speak or one, whether anyone joins remotely, or whether the load-in is through a service lift or up a flight of stairs. Those are the variables that set the price, and they're all knowable before you ask for a number.
 
-## Why AV Costs Vary So Widely
+## Equipment Is the Smaller Half
 
-The range in AV pricing isn't arbitrary. Three factors account for most of the variation: the size of the audience, the complexity of the setup, and whether on-site technical support is included.
+The gear list follows from the room: a screen sized for the furthest seat, a projector bright enough for the light you can't block, a PA if the room doesn't carry a voice, and a microphone for everyone who speaks. Each addition is incremental and predictable.
 
-A small conference room presentation — one projector, one screen, no audio — is a straightforward rental. A general session for 300 attendees that requires distributed sound, confidence monitors, a wireless presenter kit, and a tech on-site for load-in and teardown is an entirely different scope. Treating these as comparable when budgeting is where most planners run into trouble.
+What is less obvious is that on a full-service booking, equipment is usually not the biggest component. The labour is: setup, testing, a technician present for the whole event, and strike afterwards. That's why two quotes for the same equipment list can differ by a lot — one of them includes a person in the room and the other doesn't.
 
-Room acoustics and venue constraints also affect cost. A hotel ballroom with hard surfaces and high ceilings may require additional speakers or subwoofer support to achieve even sound coverage. A historic venue downtown that prohibits ceiling mounts changes your screen placement options entirely. Experienced AV vendors factor these conditions into their quotes. Less experienced ones price the equipment without the room.
+## The Cost Drivers, in Order of Impact
 
-## What Are AV Costs for Common Event Setups?
+**How many people speak.** Microphone channels scale with the run of show, not the guest count. One presenter is one channel; a panel with a moderator and floor questions is five. This is the single most common reason a budget estimate lands short.
 
-**Single-room presentation (up to 50 guests)**
-A standard setup — one projector (3,500–5,000 lumens), a 96" or 120" screen, and a basic PA with one wireless handheld microphone — typically falls in the $300–$600 range for a one-day rental in the Portland metro. This covers the equipment. Delivery, setup, and strike are often quoted separately.
+**Room size and daylight.** A bigger room needs a bigger screen and more projector output; an uncontrollable wall of windows can change what's possible entirely. Both affect what has to be brought.
 
-**Mid-size corporate event (50–150 guests)**
-Expect to add a larger or brighter projector, a wider screen, a second speaker for better coverage, and likely a lavalier kit for a presenter who needs to move. A complete rental for this range, including delivery and setup support, runs closer to $800–$1,400 depending on venue access and run-of-show requirements.
+**Hybrid.** Streaming to remote attendees adds cameras, a separate audio path into the call, and someone watching the call while the room runs.
 
-**Conference or multi-session event (150–400 guests)**
-At this scale, you're looking at high-output projection, line-array or distributed speaker systems, multiple wireless microphone channels, and a dedicated technician for the duration of the event. Full-day AV packages at this tier generally range from $1,800 to $4,000 or more, depending on session count, room count, and whether live-streaming or recording is involved.
+**Hours on site.** A two-hour morning meeting and a full-day conference use the same equipment very differently. Technician time tracks the event, plus setup and strike either side.
 
-These ranges reflect equipment rental from a local vendor. Hotel-provided AV — where the venue marks up a contracted AV company's rates — typically runs 30–60% higher for comparable equipment.
+**Access and timing.** A ground-floor room with parking at the door is quick. A stadium suite through a security checkpoint, a room available only 45 minutes before doors, or a venue that requires overnight strike all add hours.
 
-## Where Budgets Break Down
+**Venue rules.** Some hotels and conference centers charge a fee for outside AV or require their own contractor. That's not our line item, but it lands in your budget all the same — worth settling before you compare quotes.
 
-The most common budget problem isn't the quote itself — it's what's missing from it.
+## What Usually Isn't in a First Estimate
 
-Delivery and pickup fees are frequently excluded from base rental prices. If your venue is in downtown Portland during a busy convention week, or if your event requires a Sunday load-out, those fees can add meaningfully to the total.
+Cables and adapters for whatever laptops actually show up. A spare microphone. Power distribution when the room has one usable circuit. Extra setup time when the room is being used for a meal first. None of these are exotic, but they're the reason a quote gets revised — which is why the questions above get asked upfront instead.
 
-Replacement or damage waivers are another line planners overlook. Equipment damage during events — a tripped cable pulling a speaker off a stand, a microphone dropped during a panel — can generate charges that weren't in the original budget.
+## How We Price
 
-Then there's scope creep. A presentation that starts as "one screen and a mic" becomes two rooms, a recorded session, and a last-minute livestream request. Clear scope documentation at the quote stage protects both the planner and the vendor.
+We quote per event, not per item on a shelf, because every booking includes delivery, setup, testing, a technician for the full event, and strike. There's no pick-up rate, because there's no pick-up option.
 
-## How Professional AV Rental Controls Your Costs
+To give a number we need the room and venue, the headcount, the schedule, who speaks, whether anyone is remote, and when the room is available for setup. For events up to about 100 people around Portland. We won't publish a price list here, because a figure without those details would be guesswork you'd have to unlearn later.
 
-Working with a local AV rental company rather than a venue's in-house provider gives you direct access to equipment pricing without the venue markup. For a Portland nonprofit running a fundraising dinner or a corporate team hosting a quarterly all-hands at a Beaverton conference center, that difference is real money.
+## FAQ
 
-Localvendors can also right-size your equipment. A projector rated for 5,000 lumens costs more to rent than a 3,500-lumen unit. If your room is dark and your throw distance is short, you don't need the larger unit — and a vendor who knows Portland venues can tell you that before you commit. Accurate equipment selection, rather than over-speccing everything to be safe, is one of the most reliable ways to keep AV costs predictable.
+**Why can't you give a price per projector?**
+Because the projector isn't what varies. Setup, testing, technician hours, and access are, and they depend on your room and schedule. A per-item rate would just move the uncertainty into a revision later.
 
-On-site technician support — available for events that need it — eliminates the scramble when something doesn't connect as expected. That support is a line item, but it offsets the cost of a presentation that starts 20 minutes late in front of 200 people.
+**What's the biggest thing people underestimate?**
+Microphone count. Budgets are usually built on headcount, but microphones follow the run of show — a panel and audience questions can mean five channels for an audience of forty.
 
----
+**Is renting cheaper than using the venue's AV?**
+Sometimes, and sometimes the venue is fine. Check what the venue actually includes and whether it charges for outside AV first — the answer decides which comparison you're making.
 
-## Frequently Asked Questions
+**Does hybrid cost much more?**
+It adds cameras, a dedicated audio path into the call, and attention during the event. It isn't a small add-on, but it's predictable once you know how many remote attendees matter and whether they need to be heard as well as hear.
 
-**Is it cheaper to rent AV equipment directly or use the venue's AV?**
-Almost always cheaper to rent directly. Hotel and banquet venues typically contract with a preferred AV company and add a markup of 30–60% on top of that company's rates. For anything beyond a very simple setup, requesting permission to bring in an outside rental vendor and comparing quotes is worth the conversation.
+**Do you charge for setup and takedown separately?**
+They're part of every booking rather than an add-on, along with the technician who stays for the event. That's the only way we work.
 
-**What's typically not included in an AV rental quote?**
-Delivery, setup labor, and pickup are often quoted separately from equipment. Damage waivers, cable extensions, power distribution, and staging risers may also be excluded. Always ask what the quote covers before signing — a complete list of inclusions and exclusions is a reasonable expectation from any professional vendor.
+**How do I get an accurate number quickly?**
+Send the venue and room, headcount, date and schedule, who speaks, and whether anyone joins remotely. Those six answers are usually enough to quote without a site visit.
 
-**How far in advance should I lock in AV rental for a Portland event?**
-For events with 100 or more attendees, booking 3–4 weeks out gives you enough lead time to confirm equipment availability, conduct a venue walkthrough if needed, and adjust scope without rush fees. For smaller meetings, one to two weeks is generally sufficient. Same-day and next-day availability exists for straightforward setups, but you'll have less flexibility on equipment selection.
+## The Takeaway
 
-**What's the single biggest mistake planners make when budgeting AV?**
-Underspecifying the room. Planners often price AV based on attendee count alone without accounting for room size, ceiling height, ambient noise, or layout. A speaker system that works for 80 people in a compact breakout room is not the same system you need for 80 people in a large hotel ballroom with a vaulted ceiling. Getting a site-specific recommendation — rather than a generic package — prevents the most common budget surprises.
-
----
-
-## Get a Quote Sized to Your Event
-
-Describe your event — room size, headcount, and what you're presenting — and we'll build a line-item quote with no guesswork. EventGear PDX serves Portland, Beaverton, Hillsboro, Lake Oswego, Tigard, and Vancouver WA. Request your quote today and know your AV number before the rest of your budget is set.
+The price of AV is mostly a function of how many people need to be heard, how much room there is to fill, how long anyone has to be there, and how awkward the building is. Get those four in front of whoever is quoting, and the number you get first is the number you'll pay.
