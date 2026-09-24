@@ -11,18 +11,6 @@
 увидит 301. Повторная отправка `https://eventgearpdx.com/sitemap.xml` в разделе
 «Файлы Sitemap» квотой не ограничена и полезна после каждого пункта.
 
-- [ ] https://eventgearpdx.com/blog/av-setup-for-events — пункт 6, в `main` 23.09.2026
-- [ ] https://eventgearpdx.com/blog/av-setup-portland-event-rental — пункт 6
-- [ ] https://eventgearpdx.com/blog/av-set-up-meaning — пункт 6
-
-- [ ] https://eventgearpdx.com/blog/what-are-av-costs-event-rental — пункт 7
-- [ ] https://eventgearpdx.com/blog/av-quotes-portland-event-rental — пункт 7
-- [ ] https://eventgearpdx.com/blog/how-to-estimate-av-equipment-needs-corporate-events — пункт 7
-- [ ] https://eventgearpdx.com/blog/what-does-av-stand-for-in-events — пункт 8
-- [ ] https://eventgearpdx.com/blog/conference-av-rental-portland — пункт 9
-- [ ] https://eventgearpdx.com/blog/wireless-microphone-rental-conferences — пункт 9
-- [ ] https://eventgearpdx.com/blog/av-equipment-rental-for-events — пункт 10
-- [ ] https://eventgearpdx.com/blog/event-gear-rental-portland — пункт 10
 - [ ] https://eventgearpdx.com/blog/corporate-event-equipment-rental-oregon-city — пункт 10
 - [ ] https://eventgearpdx.com/blog/professional-av-setup-for-galas — пункт 11
 - [ ] https://eventgearpdx.com/blog/commercial-av-installation-near-me — пункт 11

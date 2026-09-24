@@ -57,7 +57,7 @@ const Header = () => {
                 </a>
               ))}
             </div>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-4 sm:gap-8">
               {mounted ? <ThemeToggle /> : <span className="w-10 h-10" aria-hidden />}
               <Link
                 href="/#pricing"
