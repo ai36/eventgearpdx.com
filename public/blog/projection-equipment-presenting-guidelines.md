@@ -32,7 +32,7 @@ A projector rated at 3,000 lumens looks perfectly bright in a dim demo room and 
 
 ## Screen Size and Viewing Distance Have to Match the Room
 
-A screen that looks generous up close can be unreadable from the back row. The rule of thumb AV techs use is that anyone seated should be no farther than roughly 6 times the screen's height for detailed content like text-heavy slides or spreadsheets, and up to 8 times for simple images or video. If your room seats eighty people in rows stretching 50 feet back, a 6-foot screen won't cut it regardless of how sharp the projector's image is. Screen size is a room-layout decision, made before you pick a projector.
+A screen that looks generous up close can be unreadable from the back row. The rule of thumb AV techs use is that anyone seated should be no farther than roughly 6 times the screen's height for detailed content like text-heavy slides or spreadsheets, and up to 8 times for simple images or video. If your room seats 150 people in rows stretching 60 feet back, a 6-foot screen won't cut it regardless of how sharp the projector's image is. Screen size is a room-layout decision, made before you pick a projector.
 
 ## Implication: A Mismatch Doesn't Just Look Bad, It Costs You the Room's Attention
 
