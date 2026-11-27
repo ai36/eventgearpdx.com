@@ -27,6 +27,8 @@ git pull origin main
 
 ## Tech Stack
 
+Project tasks and backlog workflow: [BACKLOG.md](BACKLOG.md).
+
 - React 19
 - Next.js 16 (App router) + SSR
   - next-themes
